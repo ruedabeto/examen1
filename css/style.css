@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+	--color-textos:#838383;
+	--color-primario:#1379e7;
+	--color-titulos:#1a1a1a;
+	--fondo-footer:#efefef;
+	--color-footer:#6d6d6d;
+}
+
+body{
+	font-size: 15px;
+	color: var(--color-textos);
+	font-weight: 400;
+	line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+header{
+	background-color: #fff;
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+}
+footer{
+	text-align: center;
+	padding: 20px 0;
+	color: var(--color-footer);
+}
+footer #footer-sponsors{
+	color: #fff;
+}
+
+.section{
+	padding: 8% 0;
+}
+.btn-primary{
+	background-color: var(--color-primario);
+	border: 0;
+	padding: 10px 20px !important;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.titulo{
+	font-size: 44px;
+	line-height: 1.3;
+	font-weight: 600;
+	color: var(--color-titulos);
+	font-style: normal;
+	margin-bottom: 20px;
+}
+#hero{
+	background-image: url();
+	/*resto de propiedades*/
+}
+h3{
+	font-size: 16px;
+	line-height: 1.3;
+	font-weight: 700;
+	color: var(--color-titulos);
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#hero .title{
+	color: var(--color-titulos);
+	font-weight: 500;
+	font-size: 30px;
+}
+
+#hero h1{
+	padding-top: 100px;
+}
+
+#hero p{
+	margin-bottom: 35px;
+}
+
+#hero .centro{
+	text-align: center;
+}
+
+#hero .centro img{
+	padding-bottom: 40px;
+}
+
+#hero .centro h3{
+	padding-bottom: 20px;
+}
+
+#meet .title{
+	color: var(--color-titulos);
+	font-weight: 500;
+	font-size: 30px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+#meet p{
+	padding-bottom: 25px;
+}
+
+#meet ul{
+	padding-bottom: 25px;
+}
+
+#privacy .title{
+	color: var(--color-titulos);
+	font-weight: 500;
+	font-size: 30px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+#privacy p{
+	padding-bottom: 25px;
+}
+
+#privacy ul{
+	padding-bottom: 25px;
+}
+
+#copyright{
+	background-color: rgba(169,169,169,1.00);
+	padding: 20px 0 20px 0;
+	color: white;
+}
+
+footer .title{
+	color: var(--color-titulos);
+	font-weight: 500;
+	font-size: 18px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+footer h4{
+	color: rgba(150,150,150,1.00);
+	padding-bottom: 30px;
+	font-size: 18px;
+}
+
+#copyright{
+	margin-top: 20px;
+}
+
+#team h2{
+	color: #f7f7f7;
+	font-size: 80px;
+	text-align: center;
+	padding-bottom: 10px;
+	font-weight: 700;
+}
+
+
+
+
+
